@@ -2,11 +2,11 @@
   "version": 2,
   "buildCommand": "npm run build",
   "outputDirectory": ".",
-  "framework": null,
-  "builds": [
-    { "src": "index.html", "use": "@vercel/static" }
-  ],
+  "framework": "vite",
   "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
   ]
 }
