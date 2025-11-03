@@ -1,0 +1,20 @@
+
+
+.crypto-ticker:hover .ticker-wrapper {
+    animation-play-state: paused;
+}
+
+
+.ticker-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.crypto-change.positive {
+    background: rgba(0, 255, 136, 0.15);
+    color: #00ff88;
+}
+
+.crypto-change.negative {
+    background: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+}
